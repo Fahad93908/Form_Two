@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+
+    background: #104497;
+}
+ul{
+
+width: 60%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+height: 70px;
+
+align-items: center;
+}
+ul li{
+
+list-style: none;
+}
+ul li a{
+
+text-transform: uppercase;
+
+text-decoration: none;
+
+color: white;
+}
+ul li img{
+    
+}
+.banner{
+    background-image: url(../image/44.jpg);
+    width: 100%;
+    height: 92vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+.left_side{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_content h1{
+    color: #fff;
+}
+.left_content {
+    
+    margin-left: 100px;
+}
+
+.left_content p {
+    color: #fff;
+    padding: 20px 0px;
+    font-size: 19px;
+}
+
+.left_content ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.left_content ul li {
+    list-style: none;
+}
+
+.left_content ul li a {}
+.icon h1 {
+    font-size: 20px;
+}
+.btn {
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.btn input {
+    padding: 10px 20px;
+    background: #EA3524;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn input:hover{
+    background-color: #343A40;
+   
+}
+.right_side {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 50%;
+    background-color: #EF3724;
+    padding: 50px 15px;
+}
+
+.form h1 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form p {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.form h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.form input {width: 98%;margin: 5px;padding: 8px 0;outline: none;border: none;}
+
+.form input[type="submit"] {
+    cursor: pointer;
+    background: #a21c0e;
+    color: white;
+    padding: 18px 0px;
+}
+ul li img {
+    width: 135px;
+}
+span {
+    color: #EF3724;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.form input[type="submit"]:hover{
+    background-color: #114E9E;
+}
